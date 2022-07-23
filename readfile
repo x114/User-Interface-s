@@ -584,7 +584,6 @@ do
             library.ended = nil
             library.changed = nil
             --
-            uis.MouseIconEnabled = true
         end
         --
         function window:Watermark(info)
@@ -905,7 +904,6 @@ do
                 cursor_inline.PointC = Vector2.new(mouseLocation.X + 6, mouseLocation.Y + 16)
             end)
             --
-            uis.MouseIconEnabled = true
             --
             return window.cursor
         end
@@ -922,7 +920,6 @@ do
             --
             window.cursor["cursor"].Transparency = window.isVisible and 1 or 0
             window.cursor["cursor_inline"].Transparency = window.isVisible and 1 or 0
-            uis.MouseIconEnabled = true
             --
             window.fading = false
         end
